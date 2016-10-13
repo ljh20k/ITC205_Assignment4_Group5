@@ -9,10 +9,11 @@ public class Main {
 
         Player player = new Player("Fred", 100);
 
-//        //test
+        //Test
 //        Test test = new Test();
 //        test.testRandomDiceSet();
 //        test.testReceiveWinnings();
+//        test.testGameEndsAtLimit();
 
         int totalWins = 0;
         int totalLosses = 0;
@@ -66,7 +67,6 @@ public class Main {
 	                    		player.getName(), player.getBalance());
 	                	loseCount++;
                     }
-
                 } //while
 
                 System.out.print(String.format("%d turns later.\nEnd Game %d: ", turn, i));
