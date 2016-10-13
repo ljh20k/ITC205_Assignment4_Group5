@@ -42,8 +42,7 @@ public class Test {
                 System.out.printf("%s won %d, balance now %d\n\n",
                         player.getName(), winnings, player.getBalance());
                 break;
-            }
-            else {
+            } else {
                 System.out.printf("%s lost, balance now %d\n\n",
                         player.getName(), player.getBalance());
             }
@@ -76,8 +75,7 @@ public class Test {
             if (winnings > 0) {
                 System.out.printf("%s won %d, balance now %d\n\n",
                         player.getName(), winnings, player.getBalance());
-            }
-            else {
+            } else {
                 System.out.printf("%s lost, balance now %d\n\n",
                         player.getName(), player.getBalance());
             }
