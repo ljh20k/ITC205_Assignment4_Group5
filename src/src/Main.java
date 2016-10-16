@@ -14,6 +14,7 @@ public class Main {
 //        test.testRandomDiceSet();
 //        test.testReceiveWinnings();
 //        test.testGameEndsAtLimit();
+//        test.testWinningRate();
 
         int totalWins = 0;
         int totalLosses = 0;
